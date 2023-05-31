@@ -24,6 +24,7 @@
 .card_descrição{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 1em;
 }
 
 .card_botões{
@@ -69,4 +70,8 @@
     color: white;
     font-weight: 700;
     text-decoration: none;
+}
+
+.descrição_estrelas{
+    margin-bottom: .5em;
 }
