@@ -57,7 +57,7 @@
     display:none;
 }
 
-.container_titulo, .opções{
+.container_titulo, .opções, .container_texto{
     display: none;
 }
 
@@ -97,5 +97,26 @@
     .opções_botão:checked~.lista-menu{
         display: block;
         width: auto;
+    }
+}
+
+@media screen and (min-width:1728px){
+    .container_link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .cabeçalho{
+        padding: 0 2em;
+    }
+
+    .opções{
+        margin-right: auto;
+    }
+
+    .container_texto{
+        display: block;
     }
 }
