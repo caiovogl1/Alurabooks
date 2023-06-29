@@ -11,6 +11,7 @@ hr{
     display: none;
 }
 
+
 @media screen and (min-width:1024px){
     .rodapé{
         display: flex;
@@ -40,6 +41,11 @@ hr{
 
     .rodapé-titulo{
         font-size: 24px;
+    }
+
+    
+    .lista-rodape-link:hover {
+        color: orange;
     }
 }
 
